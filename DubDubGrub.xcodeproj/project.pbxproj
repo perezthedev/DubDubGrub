@@ -11,6 +11,11 @@
 		F281290426B113370085DB3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F281290326B113370085DB3A /* ContentView.swift */; };
 		F281290626B113410085DB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F281290526B113410085DB3A /* Assets.xcassets */; };
 		F281290926B113410085DB3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F281290826B113410085DB3A /* Preview Assets.xcassets */; };
+		F29E487D26B18D3A0008CE1E /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E487C26B18D3A0008CE1E /* Color+Ext.swift */; };
+		F29E488026B18FA00008CE1E /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E487F26B18FA00008CE1E /* AppTabView.swift */; };
+		F29E488326B18FD70008CE1E /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E488226B18FD70008CE1E /* LocationMapView.swift */; };
+		F29E488626B190470008CE1E /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E488526B190470008CE1E /* LocationListView.swift */; };
+		F29E488926B190540008CE1E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E488826B190540008CE1E /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		F281290526B113410085DB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F281290826B113410085DB3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F281290A26B113410085DB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29E487C26B18D3A0008CE1E /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		F29E487F26B18FA00008CE1E /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		F29E488226B18FD70008CE1E /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
+		F29E488526B190470008CE1E /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		F29E488826B190540008CE1E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				F281290526B113410085DB3A /* Assets.xcassets */,
 				F281290A26B113410085DB3A /* Info.plist */,
 				F281290726B113410085DB3A /* Preview Content */,
+				F29E487C26B18D3A0008CE1E /* Color+Ext.swift */,
+				F29E487F26B18FA00008CE1E /* AppTabView.swift */,
+				F29E488226B18FD70008CE1E /* LocationMapView.swift */,
+				F29E488526B190470008CE1E /* LocationListView.swift */,
+				F29E488826B190540008CE1E /* ProfileView.swift */,
 			);
 			path = DubDubGrub;
 			sourceTree = "<group>";
@@ -140,6 +155,11 @@
 			files = (
 				F281290426B113370085DB3A /* ContentView.swift in Sources */,
 				F281290226B113370085DB3A /* DubDubGrubApp.swift in Sources */,
+				F29E488326B18FD70008CE1E /* LocationMapView.swift in Sources */,
+				F29E488626B190470008CE1E /* LocationListView.swift in Sources */,
+				F29E488026B18FA00008CE1E /* AppTabView.swift in Sources */,
+				F29E488926B190540008CE1E /* ProfileView.swift in Sources */,
+				F29E487D26B18D3A0008CE1E /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
