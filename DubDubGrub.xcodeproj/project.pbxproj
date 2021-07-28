@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F281290226B113370085DB3A /* DubDubGrubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F281290126B113370085DB3A /* DubDubGrubApp.swift */; };
-		F281290426B113370085DB3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F281290326B113370085DB3A /* ContentView.swift */; };
 		F281290626B113410085DB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F281290526B113410085DB3A /* Assets.xcassets */; };
 		F281290926B113410085DB3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F281290826B113410085DB3A /* Preview Assets.xcassets */; };
 		F29E487D26B18D3A0008CE1E /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E487C26B18D3A0008CE1E /* Color+Ext.swift */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		F28128FE26B113370085DB3A /* DubDubGrub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubDubGrub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F281290126B113370085DB3A /* DubDubGrubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubDubGrubApp.swift; sourceTree = "<group>"; };
-		F281290326B113370085DB3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F281290526B113410085DB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F281290826B113410085DB3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F281290A26B113410085DB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				F281290126B113370085DB3A /* DubDubGrubApp.swift */,
-				F281290326B113370085DB3A /* ContentView.swift */,
 				F281290526B113410085DB3A /* Assets.xcassets */,
 				F281290A26B113410085DB3A /* Info.plist */,
 				F281290726B113410085DB3A /* Preview Content */,
@@ -153,7 +150,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F281290426B113370085DB3A /* ContentView.swift in Sources */,
 				F281290226B113370085DB3A /* DubDubGrubApp.swift in Sources */,
 				F29E488326B18FD70008CE1E /* LocationMapView.swift in Sources */,
 				F29E488626B190470008CE1E /* LocationListView.swift in Sources */,
