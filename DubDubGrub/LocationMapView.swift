@@ -14,6 +14,17 @@ struct LocationMapView: View {
     var body: some View {
         ZStack {
             Map(coordinateRegion: $region)
+                .ignoresSafeArea()
+            
+            VStack {
+                Image("ddg-map-logo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 70)
+                    .shadow(radius: 20)
+                
+                Spacer()
+            }
         }
     }
 }
