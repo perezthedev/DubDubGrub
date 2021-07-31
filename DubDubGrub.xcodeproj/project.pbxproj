@@ -16,6 +16,7 @@
 		F29E488626B190470008CE1E /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E488526B190470008CE1E /* LocationListView.swift */; };
 		F29E488926B190540008CE1E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E488826B190540008CE1E /* ProfileView.swift */; };
 		F2BEAA8E26B39120000931B5 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BEAA8D26B39120000931B5 /* CloudKit.framework */; };
+		F2BEAA9126B60F93000931B5 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEAA9026B60F93000931B5 /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F2BEAA8326B38FD2000931B5 /* DubDubGrub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DubDubGrub.entitlements; sourceTree = "<group>"; };
 		F2BEAA8B26B3911F000931B5 /* DubDubGrubDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DubDubGrubDebug.entitlements; sourceTree = "<group>"; };
 		F2BEAA8D26B39120000931B5 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		F2BEAA9026B60F93000931B5 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				F29E488226B18FD70008CE1E /* LocationMapView.swift */,
 				F29E488526B190470008CE1E /* LocationListView.swift */,
 				F29E488826B190540008CE1E /* ProfileView.swift */,
+				F2BEAA9026B60F93000931B5 /* LocationDetailView.swift */,
 			);
 			path = DubDubGrub;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				F281290226B113370085DB3A /* DubDubGrubApp.swift in Sources */,
 				F29E488326B18FD70008CE1E /* LocationMapView.swift in Sources */,
 				F29E488626B190470008CE1E /* LocationListView.swift in Sources */,
+				F2BEAA9126B60F93000931B5 /* LocationDetailView.swift in Sources */,
 				F29E488026B18FA00008CE1E /* AppTabView.swift in Sources */,
 				F29E488926B190540008CE1E /* ProfileView.swift in Sources */,
 				F29E487D26B18D3A0008CE1E /* Color+Ext.swift in Sources */,

@@ -44,7 +44,7 @@ struct LocationListView: View {
         }
     }
 }
-
+    
 struct LocationListView_Previews: PreviewProvider {
     static var previews: some View {
         LocationListView()
