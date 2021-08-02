@@ -41,18 +41,7 @@ struct ProfileView: View {
                 .padding()
             }
             VStack(alignment: .leading, spacing:8) {
-                Text("Bio: ")
-                    .font(.callout)
-                    .foregroundColor(.secondary)
-                    +
-                    Text("\(100 - bio.count)") // bio is a string, use .count to get number of chars
-                    .bold()
-                    .font(.callout)
-                    .foregroundColor(bio.count <= 100 ? .brandPrimary : Color(.systemPink))
-                    +
-                    Text(" Characters Remain")
-                    .font(.callout)
-                    .foregroundColor(.secondary)
+                
                 
                 TextEditor(text: $bio)
                     .frame(height: 100)
@@ -105,5 +94,23 @@ struct EditImage: View {
             .frame(width: 14, height: 14)
             .foregroundColor(.white)
             .offset(y: 30)
+    }
+}
+
+struct CharactersRemainView: View {
+    var currentCount: Int
+    var body: some View {
+        Text("Bio: ")
+            .font(.callout)
+            .foregroundColor(.secondary)
+            +
+            Text("\(100 - currentCount)") // bio is a string, use .count to get number of chars
+            .bold()
+            .font(.callout)
+            .foregroundColor(currentCount <= 100 ? .brandPrimary : Color(.systemPink))
+            +
+            Text(" Characters Remain")
+            .font(.callout)
+            .foregroundColor(.secondary)
     }
 }
