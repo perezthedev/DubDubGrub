@@ -76,7 +76,7 @@ struct ProfileView: View {
             
             Spacer()
             
-            Button {
+            /*Button {
                 
             } label: {
                 Text("Create Profile")
@@ -85,7 +85,7 @@ struct ProfileView: View {
                     .background(Color.brandPrimary)
                     .foregroundColor(.white)
                     .cornerradius(8)
-            }
+            } */
         }
         .navigationTitle("Profile")
     }
