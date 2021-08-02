@@ -17,10 +17,7 @@ struct ProfileView: View {
     var body: some View {
         VStack {
             ZStack {
-                Color(.secondarySystemBackground)
-                    .frame(height: 130)
-                    .cornerRadius(12)
-                    .padding(.horizontal)
+               NameBackgroundView()
                 
                 HStack (spacing: 16){
                     ZStack {
@@ -97,5 +94,15 @@ struct ProfileView_Previews: PreviewProvider {
             ProfileView()
         }
         
+    }
+}
+
+
+struct NameBackgroundView: View {
+    var body: some View {
+        Color(.secondarySystemBackground)
+            .frame(height: 130)
+            .cornerRadius(12)
+            .padding(.horizontal)
     }
 }

@@ -27,7 +27,3 @@ struct LocationListView_Previews: PreviewProvider {
         LocationListView()
     }
 }
-
-
-
-
