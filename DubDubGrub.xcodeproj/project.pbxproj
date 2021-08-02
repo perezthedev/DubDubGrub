@@ -21,6 +21,7 @@
 		F2C9C6D026B8AFF0001FE257 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6CF26B8AFF0001FE257 /* AvatarView.swift */; };
 		F2C9C6D326B8B517001FE257 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6D226B8B517001FE257 /* CustomModifiers.swift */; };
 		F2C9C6D626B8B55C001FE257 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6D526B8B55C001FE257 /* View+Ext.swift */; };
+		F2C9C6D926B8B694001FE257 /* DDGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6D826B8B694001FE257 /* DDGButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		F2C9C6CF26B8AFF0001FE257 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		F2C9C6D226B8B517001FE257 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		F2C9C6D526B8B55C001FE257 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		F2C9C6D826B8B694001FE257 /* DDGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				F2C9C6CC26B8AF93001FE257 /* LocationCell.swift */,
 				F2C9C6CF26B8AFF0001FE257 /* AvatarView.swift */,
 				F2C9C6D226B8B517001FE257 /* CustomModifiers.swift */,
+				F2C9C6D826B8B694001FE257 /* DDGButton.swift */,
 			);
 			path = DubDubGrub;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				F29E488926B190540008CE1E /* ProfileView.swift in Sources */,
 				F2C9C6D626B8B55C001FE257 /* View+Ext.swift in Sources */,
 				F2C9C6CD26B8AF93001FE257 /* LocationCell.swift in Sources */,
+				F2C9C6D926B8B694001FE257 /* DDGButton.swift in Sources */,
 				F2C9C6D026B8AFF0001FE257 /* AvatarView.swift in Sources */,
 				F29E487D26B18D3A0008CE1E /* Color+Ext.swift in Sources */,
 			);

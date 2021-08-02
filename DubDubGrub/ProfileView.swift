@@ -41,7 +41,7 @@ struct ProfileView: View {
                 .padding()
             }
             VStack(alignment: .leading, spacing:8) {
-                
+                CharactersRemainView(currentCount: bio.count)
                 
                 TextEditor(text: $bio)
                     .frame(height: 100)
@@ -53,16 +53,11 @@ struct ProfileView: View {
             
             Spacer()
             
-            /*Button {
+            Button {
                 
             } label: {
-                Text("Create Profile")
-                    .bold()
-                    .frame(width: 280, height: 44)
-                    .background(Color.brandPrimary)
-                    .foregroundColor(.white)
-                    .cornerradius(8)
-            } */
+                DDGButton(title: "Create Profile")
+            }
         }
         .navigationTitle("Profile")
     }
