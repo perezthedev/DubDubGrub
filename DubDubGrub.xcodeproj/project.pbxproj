@@ -19,6 +19,8 @@
 		F2BEAA9126B60F93000931B5 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEAA9026B60F93000931B5 /* LocationDetailView.swift */; };
 		F2C9C6CD26B8AF93001FE257 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6CC26B8AF93001FE257 /* LocationCell.swift */; };
 		F2C9C6D026B8AFF0001FE257 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6CF26B8AFF0001FE257 /* AvatarView.swift */; };
+		F2C9C6D326B8B517001FE257 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6D226B8B517001FE257 /* CustomModifiers.swift */; };
+		F2C9C6D626B8B55C001FE257 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6D526B8B55C001FE257 /* View+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		F2BEAA9026B60F93000931B5 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		F2C9C6CC26B8AF93001FE257 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		F2C9C6CF26B8AFF0001FE257 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		F2C9C6D226B8B517001FE257 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		F2C9C6D526B8B55C001FE257 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 				F281290A26B113410085DB3A /* Info.plist */,
 				F281290726B113410085DB3A /* Preview Content */,
 				F29E487C26B18D3A0008CE1E /* Color+Ext.swift */,
+				F2C9C6D526B8B55C001FE257 /* View+Ext.swift */,
 				F29E487F26B18FA00008CE1E /* AppTabView.swift */,
 				F29E488226B18FD70008CE1E /* LocationMapView.swift */,
 				F29E488526B190470008CE1E /* LocationListView.swift */,
@@ -86,6 +91,7 @@
 				F2BEAA9026B60F93000931B5 /* LocationDetailView.swift */,
 				F2C9C6CC26B8AF93001FE257 /* LocationCell.swift */,
 				F2C9C6CF26B8AFF0001FE257 /* AvatarView.swift */,
+				F2C9C6D226B8B517001FE257 /* CustomModifiers.swift */,
 			);
 			path = DubDubGrub;
 			sourceTree = "<group>";
@@ -176,11 +182,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F281290226B113370085DB3A /* DubDubGrubApp.swift in Sources */,
+				F2C9C6D326B8B517001FE257 /* CustomModifiers.swift in Sources */,
 				F29E488326B18FD70008CE1E /* LocationMapView.swift in Sources */,
 				F29E488626B190470008CE1E /* LocationListView.swift in Sources */,
 				F2BEAA9126B60F93000931B5 /* LocationDetailView.swift in Sources */,
 				F29E488026B18FA00008CE1E /* AppTabView.swift in Sources */,
 				F29E488926B190540008CE1E /* ProfileView.swift in Sources */,
+				F2C9C6D626B8B55C001FE257 /* View+Ext.swift in Sources */,
 				F2C9C6CD26B8AF93001FE257 /* LocationCell.swift in Sources */,
 				F2C9C6D026B8AFF0001FE257 /* AvatarView.swift in Sources */,
 				F29E487D26B18D3A0008CE1E /* Color+Ext.swift in Sources */,
