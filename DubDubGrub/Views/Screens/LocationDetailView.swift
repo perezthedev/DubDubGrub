@@ -61,13 +61,6 @@ struct LocationDetailView: View {
                     FirstNameAvatarView(firstName: "Kelsey")
                     FirstNameAvatarView(firstName: "Kelsey")
                     FirstNameAvatarView(firstName: "Kelsey")
-                    FirstNameAvatarView(firstName: "Kelsey")
-                    FirstNameAvatarView(firstName: "Kelsey")
-                    FirstNameAvatarView(firstName: "Kelsey")
-                    FirstNameAvatarView(firstName: "Kelsey")
-                    FirstNameAvatarView(firstName: "Kelsey")
-                    FirstNameAvatarView(firstName: "Kelsey")
-                    FirstNameAvatarView(firstName: "Kelsey")
                 })
             }
             
@@ -106,6 +99,7 @@ struct LocationActionButton: View {
         }
     }
 }
+
 struct FirstNameAvatarView: View {
     
     var firstName: String
