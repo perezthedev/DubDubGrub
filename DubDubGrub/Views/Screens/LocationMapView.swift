@@ -2,7 +2,7 @@
 //  LocationMapView.swift
 //  DubDubGrub
 //
-//  Created by thepercussivedev on 7/28/21.
+//  Created by PerezTheDev on 7/28/21.
 //
 
 import SwiftUI
@@ -14,7 +14,7 @@ struct LocationMapView: View {
     var body: some View {
         ZStack {
             Map(coordinateRegion: $region).ignoresSafeArea()
-            
+
             VStack {
                 LogoView().shadow(radius: 20)
                 Spacer()
