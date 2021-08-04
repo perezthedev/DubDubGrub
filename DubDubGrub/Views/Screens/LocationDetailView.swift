@@ -2,7 +2,7 @@
 //  LocationDetailView.swift
 //  DubDubGrub
 //
-//  Created by thepercussivedev on 7/31/21.
+//  Created by PerezTheDev on 7/31/21.
 //
 
 import SwiftUI

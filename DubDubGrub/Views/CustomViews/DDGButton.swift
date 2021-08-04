@@ -2,7 +2,7 @@
 //  DDGButton.swift
 //  DubDubGrub
 //
-//  Created by thepercussivedev on 8/2/21.
+//  Created by PerezTheDev on 8/2/21.
 //
 
 import SwiftUI
