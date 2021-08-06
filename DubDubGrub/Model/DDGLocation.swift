@@ -2,7 +2,7 @@
 //  DDGLocation.swift
 //  DubDubGrub
 //
-//  Created by thepercussivedev on 8/5/21.
+//  Created by PerezTheDev on 8/5/21.
 //
 
 import CloudKit
