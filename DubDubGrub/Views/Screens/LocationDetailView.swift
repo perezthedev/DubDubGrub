@@ -10,18 +10,20 @@ import SwiftUI
 struct LocationDetailView: View {
     let columns = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
     
+    var location: DDGLocation
+    
     var body: some View {
         VStack(spacing: 16) {
             BannerImageView(imageName: "default-banner-asset")
             
             HStack {
-                AddressView(address: "123 Main Street")
+                AddressView(address: location.address)
                 
                 Spacer()
             }
             .padding(.horizontal)
             
-            DescriptionView(text: "This is a test description. This is a test description. This is a test description. This is a test description. This is a test description.")
+            DescriptionView(text: location.description)
             
             ZStack {
                 Capsule()
@@ -66,7 +68,7 @@ struct LocationDetailView: View {
             
             Spacer()
         }
-        .navigationBarTitle("Location Name")
+        .navigationTitle(location.name)
         .navigationBarTitleDisplayMode(.inline)
     }
 }
@@ -74,7 +76,7 @@ struct LocationDetailView: View {
 struct LocationDetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            LocationDetailView()
+            LocationDetailView(location: DDGLocation(record: MockData.location))
         }
     }
 }
