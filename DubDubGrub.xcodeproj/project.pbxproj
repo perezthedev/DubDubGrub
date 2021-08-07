@@ -25,6 +25,7 @@
 		F2C9C6E326BCCEA5001FE257 /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6E226BCCEA5001FE257 /* DDGLocation.swift */; };
 		F2C9C6E726BE3855001FE257 /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6E626BE3855001FE257 /* DDGProfile.swift */; };
 		F2C9C6EA26BE39FF001FE257 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6E926BE39FF001FE257 /* MockData.swift */; };
+		F2C9C6EE26BF2D13001FE257 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6ED26BF2D13001FE257 /* CloudKitManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		F2C9C6E226BCCEA5001FE257 /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
 		F2C9C6E626BE3855001FE257 /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
 		F2C9C6E926BE39FF001FE257 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		F2C9C6ED26BF2D13001FE257 /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +86,8 @@
 		F281290026B113370085DB3A /* DubDubGrub */ = {
 			isa = PBXGroup;
 			children = (
+				F2C9C6EC26BF2CDD001FE257 /* Utilities */,
 				F2C9C6E126BCCE93001FE257 /* Model */,
-				F2C9C6DC26B8B88E001FE257 /* Extenstions */,
 				F2C9C6DD26B8B8C8001FE257 /* Views */,
 				F2BEAA8B26B3911F000931B5 /* DubDubGrubDebug.entitlements */,
 				F2BEAA8326B38FD2000931B5 /* DubDubGrub.entitlements */,
@@ -172,6 +174,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F2C9C6EC26BF2CDD001FE257 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F2C9C6DC26B8B88E001FE257 /* Extenstions */,
+				F2C9C6ED26BF2D13001FE257 /* CloudKitManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -251,6 +262,7 @@
 				F2C9C6E326BCCEA5001FE257 /* DDGLocation.swift in Sources */,
 				F29E488026B18FA00008CE1E /* AppTabView.swift in Sources */,
 				F29E488926B190540008CE1E /* ProfileView.swift in Sources */,
+				F2C9C6EE26BF2D13001FE257 /* CloudKitManager.swift in Sources */,
 				F2C9C6D626B8B55C001FE257 /* View+Ext.swift in Sources */,
 				F2C9C6CD26B8AF93001FE257 /* LocationCell.swift in Sources */,
 				F2C9C6D926B8B694001FE257 /* DDGButton.swift in Sources */,
