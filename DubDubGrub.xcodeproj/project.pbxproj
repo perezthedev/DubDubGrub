@@ -23,6 +23,7 @@
 		F2C9C6D626B8B55C001FE257 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6D526B8B55C001FE257 /* View+Ext.swift */; };
 		F2C9C6D926B8B694001FE257 /* DDGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6D826B8B694001FE257 /* DDGButton.swift */; };
 		F2C9C6E326BCCEA5001FE257 /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6E226BCCEA5001FE257 /* DDGLocation.swift */; };
+		F2C9C6E726BE3855001FE257 /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C6E626BE3855001FE257 /* DDGProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		F2C9C6D526B8B55C001FE257 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		F2C9C6D826B8B694001FE257 /* DDGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGButton.swift; sourceTree = "<group>"; };
 		F2C9C6E226BCCEA5001FE257 /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
+		F2C9C6E626BE3855001FE257 /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				F2C9C6E226BCCEA5001FE257 /* DDGLocation.swift */,
+				F2C9C6E626BE3855001FE257 /* DDGProfile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				F29E488326B18FD70008CE1E /* LocationMapView.swift in Sources */,
 				F29E488626B190470008CE1E /* LocationListView.swift in Sources */,
 				F2BEAA9126B60F93000931B5 /* LocationDetailView.swift in Sources */,
+				F2C9C6E726BE3855001FE257 /* DDGProfile.swift in Sources */,
 				F2C9C6E326BCCEA5001FE257 /* DDGLocation.swift in Sources */,
 				F29E488026B18FA00008CE1E /* AppTabView.swift in Sources */,
 				F29E488926B190540008CE1E /* ProfileView.swift in Sources */,
