@@ -2,7 +2,7 @@
 //  AlertItem.swift
 //  DubDubGrub
 //
-//  Created by thepercussivedev on 8/9/21.
+//  Created by PerezTheDev on 8/9/21.
 //
 
 import SwiftUI
